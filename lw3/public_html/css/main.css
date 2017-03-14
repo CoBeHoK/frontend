@@ -48,8 +48,17 @@ p.sign
 
 .list
 {
-    width: 46%;
+    width: 42%;
     margin: 2%;
+    float: left;
+    position: relative;
+    left: 50%
+}
+
+.list_relative_container
+{
+    position: relative;
+    right: 50%;
 }
 
 .list_education
@@ -98,12 +107,14 @@ h2
     padding-left: 0px;
 }
 
-.container {
+.container 
+{
     float: left;
     width: 100%;
 }
 
-.relative_container {
+.film_relative_container 
+{
     position: relative;
     right: 25%;
 }
@@ -117,25 +128,25 @@ h2
 
 .film1 
 {
-    left:76%;
+    left: 76%;
 }
 
 .film2 
 {
-    left:78%;
+    left: 78%;
 }
 
 .film3 
 {
-    left:80%;
+    left: 80%;
 }
 
 .film4 
 {
-    left:82%;
+    left: 82%;
 }
 
 .clear
 {
-    clear:both;
+    clear: both;
 }
