@@ -6,15 +6,11 @@
     outline: 0
 }
 
-body 
-{
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
-}
-
 .main_wrapper
 {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
     width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto 20px;
 }
 
 p
@@ -31,49 +27,27 @@ p.sign
 .header_left
 {
     float: left;
-    width: 40%;
+    width: 480px;
 }
 
 .header_right
 {
     float: right;
-    max-width: 60%;
+    width: 720px;
 }
 
 .my_photo
 {
-    margin: 10%;
-    width: 80%;
+    width: 400px;
+    padding: 0 40px 0;
 }
 
 .list
 {
-    width: 42%;
-    margin: 2%;
+    width: 360px;
     float: left;
-    position: relative;
-    left: 50%
-}
-
-.list_relative_container
-{
-    position: relative;
-    right: 50%;
-}
-
-.list_education
-{
-    float: left; 
-}
-
-.list_hobby
-{
-    float: right;
-}
-
-.histories
-{
-    float: left;
+    box-sizing: border-box;
+    padding:0 40px;
 }
 
 h1, h2
@@ -91,59 +65,16 @@ h2, h3
     margin: 10px;
 }
 
-.film_border
-{
-    border-right: 1px solid #555555;
-}
-
 .my_screenshot
 {
     max-width: 100%
 }
 
-.my_film_description
-{
-    text-align: justify;
-    padding-left: 0px;
-}
-
-.container 
-{
-    float: left;
-    width: 100%;
-}
-
-.film_relative_container 
-{
-    position: relative;
-    right: 25%;
-}
-
 .film
 {
     float: left;
-    width: 23%;
-    position: relative;
-}
-
-.film1 
-{
-    left: 76%;
-}
-
-.film2 
-{
-    left: 78%;
-}
-
-.film3 
-{
-    left: 80%;
-}
-
-.film4 
-{
-    left: 82%;
+    width: 279px;
+    padding: 0 10px;
 }
 
 .clear
